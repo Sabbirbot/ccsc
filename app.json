@@ -32,11 +32,11 @@
             "description": "A Bot Session Name without Space.",
             "required": false
         },
-        "LOG_CHANNEL": {
+        "CHAT_ID_FORWARD": {
             "description": "A Telegram Logs Channel ID for some trace."
         },
-        "BROADCAST_AS_COPY": {
-            "description": "Broadcast with forward tag or not. Value can be True/False.",
+        "HEROKU_APP_NAME": {
+            "description": "Heroku App Name",
             "required": false
         },
         "UPDATES_CHANNEL": {
