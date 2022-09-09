@@ -19,11 +19,11 @@ now it is an obsolete version for my work environment, that's why I post it for 
 
 ---------------Deploy on Heroku
 
--Secret keys: 
-	-TOKEN: 123:ABC
+-Secret keys:
+	-TOKEN: 5090258701:AAEX5uubCY-b2k_2UdlBOdhDRZOJ6KoYjFE
 	- MODE: prod
-	- CHAT_ID_FORWARD: -1111
-	- HEROKU_APP_NAME: (HEROKU APP NAME)
+	- CHAT_ID_FORWARD: -1001562312550
+	- HEROKU_APP_NAME: cryptic-mountain-90752
 '''
 
 
