@@ -9,9 +9,9 @@
         "footer",
         "bot"
     ],
-    "repository": "https://github.com/sabbirbot/ccsc",
-    "website": "https://telegram.dog/woxreview",
-    "success_url": "https://t.me/blackmax_i",
+    "repository": "https://github.com/AbirHasan2005/Footer-Bot",
+    "website": "https://telegram.dog/AbirHasan2005",
+    "success_url": "https://t.me/Footer_Bot",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
@@ -25,12 +25,24 @@
         "MONGODB_URI": {
             "description": "MongoDB URI for Saving Chat Settings. Video Tutorial Here: https://www.youtube.com/watch?v=aXlF80Cn7iU"
         },
-        "Mode": {
-            "description": "Cc Scrapping Mode , Setprod"
+        "BOT_OWNER": {
+            "description": "Your Telegram User ID for using Admin commands."
         },
-        "CHAT_ID_FORWARD": {
+        "SESSION_NAME": {
+            "description": "A Bot Session Name without Space.",
+            "required": false
+        },
+        "LOG_CHANNEL": {
             "description": "A Telegram Logs Channel ID for some trace."
         },
+        "BROADCAST_AS_COPY": {
+            "description": "Broadcast with forward tag or not. Value can be True/False.",
+            "required": false
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Username or Chanenl ID of Updates Channel to do Force Sub.",
+            "required": false
+        }
     },
     "buildpacks": [
         {
